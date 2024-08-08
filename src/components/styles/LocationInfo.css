@@ -1,0 +1,39 @@
+.location {
+    background-color: var(--secondary-color);
+    color: #fff;
+    width: 100%;
+    max-width: 30em;
+    padding: 2em 2.5em 0.2em 0.5em;
+    border-radius: 1em;
+    margin: 0 auto 4em;
+    transition: scale .5s ease;
+
+    &:hover {
+        scale: 0.95;
+    }
+
+    .location_name {
+        text-align: center;
+        font-weight: 500;
+        color: #0b8300;
+        margin-bottom: 0.7em;
+    }
+
+    .location_list {
+        justify-content: space-between;
+        gap: 1em;
+
+        .location_item {
+            justify-items: center;
+
+            .location_label {
+                font-size: 0.9em;
+                color: #999;
+            }
+
+            .location_value {
+                font-size: 0.95em;
+            }
+        }
+    }
+}
